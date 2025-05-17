@@ -6,6 +6,7 @@ import numpy as np
 
 # Configurações globais
 plt.style.use('ggplot')
+
 sns.set(font_scale=0.9)
 
 # Leitura dos dados
