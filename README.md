@@ -68,5 +68,5 @@ Este projeto foi desenvolvido com fins didáticos, como parte de um exercício d
 Se quiser entrar em contato comigo:
 
 **Rafael Barbosa**  
-📧 [rafael@email.com]  
-🔗 [linkedin.com/in/rafaelbarbosa](https://linkedin.com/in/rafaelbarbosa)
+📧 [rafaeldecristo23@gmail.com]  
+🔗 [[linkedin.com/in/rafaelbarbosa](https://linkedin.com/in/rafaelbarbosa)](https://www.linkedin.com/in/rafael-barbosa-01a84a203/)
