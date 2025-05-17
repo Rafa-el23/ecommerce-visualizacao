@@ -1,72 +1,75 @@
 
-# 📊 Projeto: Visualização de Dados de E-commerce
+# 📊 Dashboard de Visualização de Dados – E-commerce
 
-Este projeto tem como objetivo aplicar técnicas de **análise exploratória de dados** (EDA) e **visualização gráfica** para extrair insights a partir de um conjunto de dados fictício de um e-commerce.
-
-Foram gerados gráficos estatísticos variados utilizando bibliotecas como `matplotlib`, `seaborn` e `scipy`.
+Este projeto é uma aplicação interativa desenvolvida com **Python + Dash**, que permite visualizar estatísticas de vendas de um e-commerce. Ele foi criado como prática final do módulo de visualização de dados.
 
 ---
 
-## 🗂️ Arquivos incluídos
+## 🔗 Acesse a aplicação online
 
-- `visualizacao_de_dados.py` – Script principal que gera os gráficos
-- `ecommerce_estatistica.csv` – Base de dados utilizada
-- `README.md` – Documentação do projeto
+👉 [https://ecommerce-visualizacao.onrender.com](https://ecommerce-visualizacao.onrender.com)
 
 ---
 
-## 📈 Gráficos Gerados
+## 📂 Sobre o projeto
 
-- **Histograma** da distribuição de preços
-- **Gráfico de Dispersão** entre preço e quantidade vendida
-- **Mapa de Calor** das correlações entre variáveis numéricas
-- **Gráfico de Barras** com as marcas mais frequentes
-- **Gráfico de Pizza** com a distribuição por temporada
-- **Gráfico de Densidade** dos preços
-- **Gráfico de Regressão** linear entre preço e quantidade vendida
+A aplicação apresenta gráficos interativos com base no dataset `ecommerce_estatistica.csv`, abordando:
+
+- Dispersão entre **Preço** e **Quantidade Vendida**
+- Quantidade vendida por **Marca**
+- Distribuição por **Temporada**
+- Possibilidade de expansão com outros gráficos como mapa de calor e regressão linear
 
 ---
 
-## 🚀 Como executar o projeto
+## 🧰 Tecnologias utilizadas
+
+- [Dash](https://dash.plotly.com/)
+- [Plotly Express](https://plotly.com/python/plotly-express/)
+- [Pandas](https://pandas.pydata.org/)
+- [Seaborn](https://seaborn.pydata.org/)
+- [Python 3.11+](https://www.python.org/)
+
+---
+
+## 🖥️ Como executar localmente
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Rafa-el23/ecommerce-visualizacao.git
-   cd ecommerce-visualizacao
-   ```
+```bash
+git clone https://github.com/Rafa-el23/ecommerce-visualizacao.git
+cd ecommerce-visualizacao
+```
 
-2. Instale os pacotes necessários:
-   ```bash
-   pip install matplotlib seaborn scipy pandas
-   ```
+2. Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
 
-3. Execute o script:
-   ```bash
-   python visualizacao_de_dados.py
-   ```
+3. Execute a aplicação:
+```bash
+python app_dash.py
+```
 
----
-
-## 💡 Tecnologias utilizadas
-
-- Python 3.10+
-- pandas
-- matplotlib
-- seaborn
-- scipy
+4. Acesse no navegador:
+```
+http://127.0.0.1:8050
+```
 
 ---
 
-## 📌 Observações
+## 📁 Estrutura do projeto
 
-Este projeto foi desenvolvido com fins didáticos, como parte de um exercício de visualização e análise exploratória de dados.
+```
+ecommerce-visualizacao/
+├── app_dash.py
+├── ecommerce_estatistica.csv
+├── requirements.txt
+└── render.yaml
+```
 
 ---
 
-## 📬 Contato
+## 📬 Autor
 
-Se quiser entrar em contato comigo:
-
-**Rafael Barbosa**  
-📧 [rafaeldecristo23@gmail.com]  
-🔗 [[linkedin.com/in/rafaelbarbosa](https://linkedin.com/in/rafaelbarbosa)](https://www.linkedin.com/in/rafael-barbosa-01a84a203/)
+Desenvolvido por **Rafael Barbosa**  
+GitHub: [@Rafa-el23](https://github.com/Rafa-el23)
