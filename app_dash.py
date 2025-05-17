@@ -16,7 +16,7 @@ app.layout = html.Div(children=[
 
     dcc.Graph(
         id='grafico_dispersao',
-        figure=px.scatter(df, x="Preco", y="Qtd_Vendidos_Cod",
+        figure=px.scatter(df, x="Preço", y="Qtd_Vendidos_Cod",
                           title="Dispersão: Preço vs Quantidade Vendida",
                           trendline="ols")
     ),
